@@ -1,0 +1,73 @@
+/***********************************************\
+        Fonts Import end
+\***********************************************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+/******************************\
+        Fonts Import Start
+\**********************************************/
+/**********************************************\
+        Common Styles Or Utilites Start
+\**********************************************/
+body{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 400;
+    margin: 0;
+}
+ul,li,a{
+        padding: 0; 
+        margin: 0;
+}
+.container{ 
+       display: flex;
+       margin-bottom: 100px; 
+       width: 1160px;
+       margin: 0 auto;
+       padding-bottom: 84px;
+}
+h1{
+        font-size: 64px;
+}
+/**********************************************\
+        Common Styles Or Utilites End
+\**********************************************/
+/**********************************************\
+        Header Start From Here
+\**********************************************/
+header{
+        background-color: #2d25a0;
+}
+.menu-section{
+       justify-content: space-between;
+       /* align-items: center; */
+       padding: 50px 0 50px 0;
+} 
+.menu ul li{
+        display: inline-block;
+        padding-right: 36px;
+}
+.menu ul li a{
+        text-decoration: none;
+        color: #ffffff;
+} 
+.header-area{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+}  
+.copa-america{
+        width: 85%;
+        color: #ffffff;
+        font-weight: 700px;
+}
+.link-button{
+        background-color: red;
+        padding: 10px 20px;
+        color: #ffffff;
+        text-decoration: none;
+} 
+.banner img{
+        width: 100%;
+}
+
+/**********************************************\
+        Header End From Here
+\**********************************************/
