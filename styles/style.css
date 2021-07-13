@@ -113,5 +113,24 @@ header{
         Player Blogs End From Here
 \**********************************************/
 
+/**********************************************\
+        Top Footer End From Here
+\**********************************************/
 
- 
+.highlights{
+        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+}
+.highlights h2{
+        color: #0A0826;
+        margin-top: 35px;
+        width: 81%;
+}
+.highlights p{
+        padding-bottom: 24px;
+        display:block;
+}
+ /**********************************************\
+        Top Footer End From Here
+\**********************************************/
