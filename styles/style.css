@@ -54,7 +54,11 @@ header{
 .menu ul li a{
         text-decoration: none;
         color: #ffffff;
+        transition: 1s; 
 } 
+.menu ul li:hover a{ 
+        color: #E02C6D;
+}
 .header-area{
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
@@ -114,14 +118,14 @@ header{
 \**********************************************/
 
 /**********************************************\
-        Top Footer End From Here
+        Highlights Start From Here
 \**********************************************/
 
 .highlights{
         
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
-}
+} 
 .highlights h2{
         color: #0A0826;
         margin-top: 35px;
@@ -130,7 +134,41 @@ header{
 .highlights p{
         padding-bottom: 24px;
         display:block;
+        width: 81%;
 }
  /**********************************************\
-        Top Footer End From Here
+        Highlights End From Here
+\**********************************************/
+ /**********************************************\
+         Footer Start From Here
+\**********************************************/
+footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 63px;
+}
+.footer-logo img{
+        height: 110px;
+}
+.icons{
+        list-style: none;
+}
+.icon{
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        background: #e7e7e8;
+        border-radius: 50%;
+        font-size: 17px;
+        text-align: center;
+        line-height: 32px;
+        margin-left: 14px;
+        
+}
+.icon a{
+        color: #969BAB; 
+}
+ /**********************************************\
+         Footer End From Here
 \**********************************************/
