@@ -113,13 +113,16 @@ header{
         font-weight: 700;
         color: #E02C6D;
 }
+.pagination{
+        text-align: center;
+}
 .pagination a:nth-child(2){
         color: #E02C6D;;
 }
 .pagination a {
         color: black;
         float: left;
-        padding: 20px 16px;
+        padding: 20px 15px;
         text-decoration: none;
         font-weight: 700;
       }
@@ -182,4 +185,60 @@ footer{
 }
  /**********************************************\
          Footer End From Here
+\**********************************************/
+ /**********************************************\
+         Responsive Start From Here
+\**********************************************/
+@media only screen and (max-width:688px){
+        
+        .container{
+                width: 100%;
+                padding-bottom: 0px;
+        }
+        .header-area{
+                grid-template-columns: repeat(1, 1fr);
+                margin-left: 15px;
+        }
+        .copa-america { 
+                margin-bottom: 50px;
+        }
+        .copa-america h1{
+                font-size: 36px;
+                margin-bottom: 50px;
+        }
+        .banner img{
+                width: 90%;
+        }
+        .menu-section{
+                display: none;
+        }
+        .blogs{ 
+                grid-template-columns: repeat(1, 1fr);  
+                /* padding: 20px; */
+        }
+        .highlights{ 
+                grid-template-columns: repeat(1, 1fr); 
+        } 
+        .highlights h2{
+                font-size: 30px;
+                width: 95%;
+        }
+        .highlights-details{
+                /* padding: 10px; */
+                width: 100%;
+                margin-left: 20px;
+                margin-bottom: 20px;
+        }
+        .highlights-video iframe{
+                width: 90%;
+                height: auto;
+                margin-left: 20px;
+        }
+        .footer-logo img{
+                width: 80%;
+                margin-left: 20px;
+        }
+}
+/**********************************************\
+         Responsive End From Here
 \**********************************************/
