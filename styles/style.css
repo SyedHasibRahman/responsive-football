@@ -41,6 +41,7 @@ ul,li,a{
 \**********************************************/
 header{
         background-color: #2d25a0;
+        width: 100%;
 }
 .menu-section{
        justify-content: space-between;
@@ -122,10 +123,10 @@ header{
 .pagination a {
         color: black;
         float: left;
-        padding: 20px 15px;
+        padding: 20px 14px;
         text-decoration: none;
         font-weight: 700;
-      }
+      } 
 /**********************************************\
         Player Blogs End From Here
 \**********************************************/
@@ -247,3 +248,45 @@ footer{
 /**********************************************\
          Responsive End From Here
 \**********************************************/
+@media only screen and (min-width: 688px) and (max-width: 1159px){
+        .container{
+                width: 80%;
+                padding-bottom: 50px;
+                margin: 0 auto;
+        }
+        .menu-section{
+                display: none;
+        }
+        .header-area{
+                grid-template-columns: repeat(2, 1fr);
+                /* margin-left: 15px; */
+        }
+        .banner img{
+                width: 100%;
+                margin-top: 80px;
+        }
+        .blogs{ 
+                grid-template-columns: repeat(2, 1fr);  
+                /* padding: 20px; */
+                grid-auto-flow: center;
+        }
+        .player-blog{
+                width: 100%;
+        }
+        .player-blog img{
+                width: 100%;
+        }
+        .highlights{ 
+                /* text-align: center; */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+        }
+        .highlights-details{
+                width: 80%;
+                padding-left: 50px;
+                margin-bottom: 30px;
+            
+        }
+}
